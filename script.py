@@ -84,7 +84,7 @@ def process_file(file_name):
         print(f'Something went wrong while processing the file: {e}')
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 2:
+    if len(sys.argv) >2:
         print("Syntax: python3 script_name.py <file_name>")
         sys.exit()
 
